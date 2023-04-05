@@ -80,7 +80,7 @@ msg = EmailMessage()
 msg['Subject'] = "Relatório de Fechamento de Mercado com Python - Bruno Henrique"
 msg['From'] = os.environ.get("email")
 msg['To'] = 'brunodorea@outlook.com.br'
-msg['To'] = 'brenno@varos.com.br'
+msg['Cc'] = 'brenno@varos.com.br'
 msg.set_content(f'''Prezados, segue o relatório diário:
 
 Bolsa:
